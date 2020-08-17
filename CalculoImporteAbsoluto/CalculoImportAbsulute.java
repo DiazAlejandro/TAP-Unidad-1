@@ -15,10 +15,10 @@ public class CalculoImportAbsulute extends JFrame{
     private JLabel tCantidad;   //Titulo "Cantidad" 
     private JLabel tPrecio;     //Titulo "Precio" 
     private JLabel timporte;    //Titulo "Importe" 
-    private JLabel importe; 
-    private JLabel globalim; 
-    private JLabel txtg;
-    private JTextField cantidad; 
+    private JLabel importe; 	//Lugar donde mostrará el importe
+    private JLabel globalim; 	//Lugar donde mostrará el importe global
+    private JLabel txtg;	    //Titulo "Importe global"
+    private JTextField cantidad;//Ingresae la cantidad 
     private JTextField precio;
     private JTextField descrp;
     private JButton    calculo; 
@@ -36,7 +36,7 @@ public class CalculoImportAbsulute extends JFrame{
         tdescrp   = new JLabel ("Descripcion:");
         globalim  = new JLabel (""); 
         txtg      = new JLabel ("Importe Total"); 
-        calculo   = new JButton("Calcular");  
+        calculo   = new JButton("Calcular"); 
         cantidad  = new JTextField(6);        
         precio    = new JTextField(6);
         descrp    = new JTextField(6);
@@ -136,7 +136,7 @@ public class CalculoImportAbsulute extends JFrame{
         );
         JFrame frame = new JFrame();
           frame.add(panel);
-          frame.setPreferredSize( new Dimension(440,700));
+          frame.setPreferredSize(new Dimension(440,700));
           frame.pack();
           frame.setVisible(true);
     }
