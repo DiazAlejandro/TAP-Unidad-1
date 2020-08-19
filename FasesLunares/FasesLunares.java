@@ -4,7 +4,7 @@ import javax.swing.ImageIcon;
 import java.net.URL;
 
 /**
- * Clase que muestra la ejecución e implementación de un JButtonGroup mediante estados civiles
+ * Clase que muestra imagenes respecto a la opcion seleccionada
  * 
  * @author: Alejandro Diaz Ruiz
  * @version: 18/02/2020
